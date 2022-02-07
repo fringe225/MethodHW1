@@ -48,7 +48,7 @@ namespace MethodHW
         static bool IsPrime(int number)
         {
             bool check = true;
-            for (int i = 2; i <number/2; i++)
+            for (int i = 2; i <=number/2; i++)
             {
                 if (number % 2 == 0)
                 {
